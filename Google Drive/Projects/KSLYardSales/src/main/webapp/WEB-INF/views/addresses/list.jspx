@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ksl_yardsales_domain_Address" items="${addresses}" z="qMamirvMqThlikTs8CAqllVhMdQ=">
+        <table:table data="${addresses}" id="l_com_ksl_yardsales_domain_Address" path="/addresses" z="+uywtT6IMw83Eeblz+1r5JxFaVI=">
+            <table:column id="c_com_ksl_yardsales_domain_Address_address" property="address" z="iYecb5mSvWmZZ5kfXICjLS7uMY8="/>
+            <table:column id="c_com_ksl_yardsales_domain_Address_city" property="city" z="txsWJgPSSAG6Wa9c5fCtEys1a2U="/>
+            <table:column id="c_com_ksl_yardsales_domain_Address_state" property="state" z="hT0pXgNTR22jTwY6fq5wNqadM68="/>
+            <table:column id="c_com_ksl_yardsales_domain_Address_zipcode" property="zipcode" z="4kuP5GX+KWtcafHfdaTbzM2zeD0="/>
+            <table:column id="c_com_ksl_yardsales_domain_Address_latitude" property="latitude" z="Jsgv/EMrjPybzXJVmmIAIKg0XxI="/>
+            <table:column id="c_com_ksl_yardsales_domain_Address_longitude" property="longitude" z="x1PzYhId2+7gJPYs1lmArykJWio="/>
+        </table:table>
+    </page:list>
+</div>

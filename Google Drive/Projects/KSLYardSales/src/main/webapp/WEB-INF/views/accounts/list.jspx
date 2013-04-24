@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ksl_yardsales_domain_Account" items="${accounts}" z="AqN3FOz8PiIy7ictX7JRC5apmvE=">
+        <table:table data="${accounts}" id="l_com_ksl_yardsales_domain_Account" path="/accounts" z="A+1p2OPdq7iSJHLqOz+ywxD0/Iw=">
+            <table:column id="c_com_ksl_yardsales_domain_Account_userName" property="userName" z="TiXanqJQUvLLmnFYHXEK4Mv/XZg="/>
+            <table:column id="c_com_ksl_yardsales_domain_Account_password" property="password" z="dsSV3xEFjAgpfwLvdopt6Vxy2gg="/>
+            <table:column id="c_com_ksl_yardsales_domain_Account_address" property="address" z="DgEwt1bklJc087GB6iA17Nyz87Q="/>
+            <table:column id="c_com_ksl_yardsales_domain_Account_yardSales" property="yardSales" z="uxISLG9aUBN1zFkD9ryUJGhoH4w="/>
+        </table:table>
+    </page:list>
+</div>

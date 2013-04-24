@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ksl_yardsales_domain_Address" modelAttribute="address" path="/addresses" versionField="Version" z="JWc8znocvMaCedI0r56Q8WU9/Zo=">
+        <field:input field="address" id="c_com_ksl_yardsales_domain_Address_address" required="true" z="IA6eQQ91yGSHjYQ+1zvHkqr7L2Y="/>
+        <field:input field="city" id="c_com_ksl_yardsales_domain_Address_city" required="true" z="DqsPGNBjsReu9AqFWma5mmjlSsQ="/>
+        <field:input field="state" id="c_com_ksl_yardsales_domain_Address_state" required="true" z="YD4+AMbzd76RGJs+CyjbFsQXi+M="/>
+        <field:input field="zipcode" id="c_com_ksl_yardsales_domain_Address_zipcode" required="true" z="tmvcAdYHBla0QFfkMbjRXdKzdbk="/>
+        <field:input field="latitude" id="c_com_ksl_yardsales_domain_Address_latitude" validationMessageCode="field_invalid_number" z="nxORFqKgsbmpHJMx9t0Hcq5lP68="/>
+        <field:input field="longitude" id="c_com_ksl_yardsales_domain_Address_longitude" validationMessageCode="field_invalid_number" z="cIxfeLXufQ8kPgDufHOaY5Duinw="/>
+    </form:update>
+</div>

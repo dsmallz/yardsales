@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ksl_yardsales_domain_YardSale" object="${yardsale}" path="/yardsales" z="e//taH7//VyogM6FrLbltxPXtIg=">
+        <field:display field="url" id="s_com_ksl_yardsales_domain_YardSale_url" object="${yardsale}" z="+UaIiPWuVMq0sj/jRz97GVlflcw="/>
+        <field:display field="htmlDescription" id="s_com_ksl_yardsales_domain_YardSale_htmlDescription" object="${yardsale}" z="HjnKDb4OBlU51KFdRhuZFZ1pi8w="/>
+        <field:display field="plainTextDescription" id="s_com_ksl_yardsales_domain_YardSale_plainTextDescription" object="${yardsale}" z="j8Grf3Atfs0FVlsqfcTdiXHm9Kg="/>
+        <field:display field="approximateLocation" id="s_com_ksl_yardsales_domain_YardSale_approximateLocation" object="${yardsale}" z="h2O6+NN+BZ7LqWlzwiJYXvakC94="/>
+        <field:display field="title" id="s_com_ksl_yardsales_domain_YardSale_title" object="${yardsale}" z="TsyRtC1LxrkjVhq7iGdMSETxPAI="/>
+        <field:display field="contactName" id="s_com_ksl_yardsales_domain_YardSale_contactName" object="${yardsale}" z="AjMOwHgpehIlcb4UxwTu24T1YyM="/>
+        <field:display field="contactPhone" id="s_com_ksl_yardsales_domain_YardSale_contactPhone" object="${yardsale}" z="erMymxCI/hRbJp6rg16DZikCG1g="/>
+        <field:display date="true" dateTimePattern="${yardSale_date_date_format}" field="date" id="s_com_ksl_yardsales_domain_YardSale_date" object="${yardsale}" z="pm1NJMxAGthp5WIwbabhnONoiZM="/>
+        <field:display field="popularity" id="s_com_ksl_yardsales_domain_YardSale_popularity" object="${yardsale}" z="YWvBEyRHdq2vJ5Ri4nqo0q0IinQ="/>
+        <field:display field="tags" id="s_com_ksl_yardsales_domain_YardSale_tags" object="${yardsale}" z="Ve1BDHHSzyaXwgZOt3IZ6ZSgkDU="/>
+    </page:show>
+</div>

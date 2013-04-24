@@ -1,0 +1,60 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-23 22:13:58
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-23 22:14:02
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-23 22:14:28
+hint
+project --topLevelPackage com.ksl.yardsales
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.domain.Account --testAutomatically
+field string --fieldName userName --notNull --sizeMin 6 --unique
+field string --fieldName password --notNull --sizeMin 6 
+entity jpa --class ~.domain.Address --testAutomatically
+field string --fieldName address --notNull
+field string --fieldName city --notNull
+field string --fieldName state --notNull --permitReservedWords 
+field string --fieldName zipcode --notNull 
+field number --type java.lang.Float --fieldName latitude
+field number --type java.lang.Float --fieldName longitude
+entity jpa --class ~.domain.YardSale --testAutomatically 
+field string --fieldName url --notNull 
+field string --fieldName htmlDescription 
+field string --fieldName plainTextDescription
+field string --fieldName approximateLocation
+field string --fieldName title
+field string --fieldName contactName
+field string --fieldName contactPhone
+field date --type java.util.Date --fieldName date --permitReservedWords
+field number --type int --fieldName popularity
+entity jpa --class ~.domain.ContactInfo
+field string --fieldName contactName
+field string --fieldName phoneNumber
+field reference --fieldName address --type ~.domain.Address
+entity jpa --class ~.domain.Tag --testAutomatically
+field string --fieldName tag --sizeMin 1 --sizeMax 25 --notNull
+field string --fieldName description --sizeMax 250 --notNull
+field set --fieldName yardsales --type ~.domain.YardSale --cardinality MANY_TO_MANY
+focus --class ~.domain.YardSale
+field set --fieldName tags --type ~.domain.Tag --cardinality MANY_TO_MANY --mappedBy yardsales
+field reference --class ~.domain.Account --fieldName address --type ~.domain.Address
+field set --fieldName yardSales --type ~.domain.YardSale --class ~.domain.Account
+perform tests
+web mvc setup
+web mvc all --package ~.web
+selenium test --controller ~.web.AccountController
+selenium test --controller ~.web.AddressController
+selenium test --controller ~.web.ContactInfoController
+selenium test --controller ~.web.YardSaleController
+repository jpa --interface ~.repository.AccountRepository --entity ~.domain.Account
+repository jpa --interface ~.repository.AddressRepository --entity ~.domain.Address
+repository jpa --interface ~.repository.YardSaleRepository --entity ~.domain.YardSale
+repository jpa --interface ~.repository.ContactInfoRepository --entity ~.domain.ContactInfo
+service --interface ~.service.AddressService --entity ~.domain.Address
+service --interface ~.service.YardSaleService --entity ~.domain.YardSale
+service --interface ~.service.AccountService --entity ~.domain.Account
+service --interface ~.service.ContactInfoService --entity ~.domain.ContactInfo
+json all --deepSerialize 
+web mvc json all
+// script --file C:\Users\Dennis\ksl_yardsale_roo_script.roo
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-23 22:17:37
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-23 22:37:05

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ksl_yardsales_domain_Tag" modelAttribute="tag" path="/tags" versionField="Version" z="aohYVIc8vozMW3YjiwXncQZxm+o=">
+        <field:input field="tag" id="c_com_ksl_yardsales_domain_Tag_tag" max="25" min="1" required="true" z="gLULY+0ciFg1QV10LWuvQ0Jj9AE="/>
+        <field:textarea field="description" id="c_com_ksl_yardsales_domain_Tag_description" required="true" z="NQs1K2BCws6HXi3iKYF07208DNI="/>
+        <field:select field="yardsales" id="c_com_ksl_yardsales_domain_Tag_yardsales" itemValue="id" items="${yardsales}" multiple="true" path="/yardsales" z="ZAHzJQjmnXFK0QhFDQIyZ7nwTUo="/>
+    </form:update>
+</div>

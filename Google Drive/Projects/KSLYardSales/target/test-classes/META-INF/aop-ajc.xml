@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="com.ksl.yardsales.domain.TagIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ksl.yardsales.domain.AccountDataOnDemand_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.AccountIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ksl.yardsales.domain.AddressDataOnDemand_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.AccountIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.YardSaleIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.YardSaleDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.ksl.yardsales.domain.AddressDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.ksl.yardsales.domain.TagDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.ksl.yardsales.domain.YardSaleIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ksl.yardsales.domain.TagDataOnDemand_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.AccountDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.ksl.yardsales.domain.TagIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.AddressIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.AddressIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ksl.yardsales.domain.YardSaleDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

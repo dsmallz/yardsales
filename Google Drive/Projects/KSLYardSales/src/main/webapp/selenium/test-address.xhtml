@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<link href="http://localhost:8080/" rel="selenium.base"/>
+<title>Selenium test for AddressController</title>
+</head>
+<body>
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td colspan="3" rowspan="1">Selenium test for AddressController</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                    <td>open</td>
+                    <td>http://localhost:8080/yardsales/addresses?form&amp;lang=en_US</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_address_id</td>
+                    <td>someAddress1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_city_id</td>
+                    <td>someCity1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_state_id</td>
+                    <td>someState1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_zipcode_id</td>
+                    <td>someZipcode1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_latitude_id</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_longitude_id</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>clickAndWait</td>
+                    <td>//input[@id = 'proceed']</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_address_address_id</td>
+                    <td>someAddress1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_city_city_id</td>
+                    <td>someCity1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_state_state_id</td>
+                    <td>someState1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_zipcode_zipcode_id</td>
+                    <td>someZipcode1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_latitude_latitude_id</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_ksl_yardsales_domain_Address_longitude_longitude_id</td>
+                    <td>1.0</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

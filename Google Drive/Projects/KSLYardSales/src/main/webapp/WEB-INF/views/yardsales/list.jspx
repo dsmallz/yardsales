@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ksl_yardsales_domain_YardSale" items="${yardsales}" z="p7wP0lqEr5sxjSdqmPhBlRYZXMQ=">
+        <table:table data="${yardsales}" id="l_com_ksl_yardsales_domain_YardSale" path="/yardsales" z="Hi+crnkLE3xccEbz0T29i/F83H8=">
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_url" property="url" z="UGA9D5Yt384xxwnHX2U0u0gVVa8="/>
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_htmlDescription" property="htmlDescription" z="+Qd6QZIYWt1f9hbzt37jVUrP2T0="/>
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_plainTextDescription" property="plainTextDescription" z="kD4FxpmZxahg5ZBy3Wzgdqyu6oE="/>
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_approximateLocation" property="approximateLocation" z="v5Jls42pxki2C4WdQu7cYFsd3JY="/>
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_title" property="title" z="gH7szAC0KtWRbOwDamZ9xADOEts="/>
+            <table:column id="c_com_ksl_yardsales_domain_YardSale_contactName" property="contactName" z="uM67lUCLRZS7DD7/FDBBlkIjcAc="/>
+        </table:table>
+    </page:list>
+</div>

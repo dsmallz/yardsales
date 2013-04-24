@@ -1,0 +1,58 @@
+<aspectj>
+<aspects>
+<aspect name="com.ksl.yardsales.web.YardSaleController_Roo_Controller_Json"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_Jpa_Entity"/>
+<aspect name="com.ksl.yardsales.repository.AddressRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_Jpa_Entity"/>
+<aspect name="com.ksl.yardsales.web.ContactInfoController_Roo_Controller_Json"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_Json"/>
+<aspect name="com.ksl.yardsales.web.ContactInfoController_Roo_Controller"/>
+<aspect name="com.ksl.yardsales.web.TagController_Roo_Controller_Json"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_ToString"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_Jpa_Entity"/>
+<aspect name="com.ksl.yardsales.service.AccountServiceImpl_Roo_Service"/>
+<aspect name="com.ksl.yardsales.web.AccountController_Roo_Controller"/>
+<aspect name="com.ksl.yardsales.service.YardSaleService_Roo_Service"/>
+<aspect name="com.ksl.yardsales.web.YardSaleController_Roo_Controller"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.ksl.yardsales.service.AccountService_Roo_Service"/>
+<aspect name="com.ksl.yardsales.repository.YardSaleRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ksl.yardsales.service.AddressServiceImpl_Roo_Service"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_ToString"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_Jpa_Entity"/>
+<aspect name="com.ksl.yardsales.service.AddressService_Roo_Service"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_JavaBean"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.service.ContactInfoServiceImpl_Roo_Service"/>
+<aspect name="com.ksl.yardsales.web.TagController_Roo_Controller"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_Jpa_Entity"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_Json"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_JavaBean"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_JavaBean"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_Json"/>
+<aspect name="com.ksl.yardsales.service.YardSaleServiceImpl_Roo_Service"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.repository.AccountRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.web.AccountController_Roo_Controller_Json"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_Json"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_Configurable"/>
+<aspect name="com.ksl.yardsales.repository.ContactInfoRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_ToString"/>
+<aspect name="com.ksl.yardsales.web.AddressController_Roo_Controller"/>
+<aspect name="com.ksl.yardsales.domain.YardSale_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.ksl.yardsales.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.ksl.yardsales.service.ContactInfoService_Roo_Service"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_JavaBean"/>
+<aspect name="com.ksl.yardsales.domain.Tag_Roo_ToString"/>
+<aspect name="com.ksl.yardsales.domain.Address_Roo_JavaBean"/>
+<aspect name="com.ksl.yardsales.domain.Account_Roo_ToString"/>
+<aspect name="com.ksl.yardsales.web.AddressController_Roo_Controller_Json"/>
+<aspect name="com.ksl.yardsales.domain.ContactInfo_Roo_Json"/>
+</aspects>
+</aspectj>
+

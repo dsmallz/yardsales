@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_contactinfo" z="bLqJZYMeF9nIubMhoX735W2Xmnk=">
+            <menu:item id="i_contactinfo_new" messageCode="global_menu_new" url="/contactinfoes?form" z="M/rMYKTRm8r5egJDzqNp5C4RyvY="/>
+            <menu:item id="i_contactinfo_list" messageCode="global_menu_list" url="/contactinfoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/Uru4x3fEVArG3NfeC/Rpgn5sqI="/>
+        </menu:category>
+        <menu:category id="c_yardsale" z="6JUuUGtuDaaP0ZaAdpwHtgZcPYg=">
+            <menu:item id="i_yardsale_new" messageCode="global_menu_new" url="/yardsales?form" z="FVDaqwjFkXxBcZPb3Lo2n3QWvLM="/>
+            <menu:item id="i_yardsale_list" messageCode="global_menu_list" url="/yardsales?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pCUVCmkT8UB7qiW69BV4VTVCkic="/>
+        </menu:category>
+        <menu:category id="c_account" z="/ObionklNVMvfxU5oSj2hEUJNu0=">
+            <menu:item id="i_account_new" messageCode="global_menu_new" url="/accounts?form" z="7ISq6pJsfrDJexgk1yAmzNiIcp8="/>
+            <menu:item id="i_account_list" messageCode="global_menu_list" url="/accounts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VeXZsM9n5bR9ZvhjdYhrVsG24uw="/>
+        </menu:category>
+        <menu:category id="c_tag" z="zbrDBteXk3LlkQMQy3xXpSv2428=">
+            <menu:item id="i_tag_new" messageCode="global_menu_new" url="/tags?form" z="c2MR5d7dttBSgnPxMMH7oOEDl6Q="/>
+            <menu:item id="i_tag_list" messageCode="global_menu_list" url="/tags?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HsTcxZ80PNENgslZ1+b/pv8MYug="/>
+        </menu:category>
+        <menu:category id="c_address" z="my5R1aInTRohGzWz9TL4j8LX/vE=">
+            <menu:item id="i_address_new" messageCode="global_menu_new" url="/addresses?form" z="vg+UZ0neKcizSzKiVzXeI3oY1BA="/>
+            <menu:item id="i_address_list" messageCode="global_menu_list" url="/addresses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="u8ooCATbc0N+VHl1spo80t0zy+k="/>
+        </menu:category>
+        <menu:category id="c_seleniumtests" z="PPLMd2yNB6/LSbjIWogAacRPU+Q=">
+            <menu:item id="si_seleniumtests_test" messageCode="selenium_menu_test_suite" url="/resources/selenium/test-suite.xhtml" z="wwunW/IPDcunN97u41MvMJZQ2to="/>
+        </menu:category>
+    </menu:menu>
+</div>
